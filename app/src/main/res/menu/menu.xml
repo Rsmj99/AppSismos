@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/ultimo"
+            android:title="ÚLTIMO SISMO"
+            android:icon="@drawable/icono_menu_01">
+        </item>
+    </group>
+    <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/sismos"
+            android:title="SISMOS RECIENTES"
+            android:icon="@drawable/icono_menu_02">
+        </item>
+    </group>
+    <group android:id="@+id/grp3">
+        <item
+            android:id="@+id/mapa"
+            android:title="MAPA SÍSMICO"
+            android:icon="@drawable/icono_menu_03">
+        </item>
+    </group>
+    <group android:id="@+id/grp4">
+        <item
+            android:id="@+id/ajustes"
+            android:title="NOTIFICACIONES"
+            android:icon="@drawable/icono_menu_04">
+        </item>
+    </group>
+    <group android:id="@+id/grp5">
+        <item
+            android:id="@+id/glosario"
+            android:title="GLOSARIO"
+            android:icon="@drawable/icono12">
+        </item>
+    </group>
+    <group android:id="@+id/grp6">
+        <item
+            android:id="@+id/salir"
+            android:title="SALIR"
+            android:icon="@drawable/icono_menu_06">
+        </item>
+    </group>
+</menu>

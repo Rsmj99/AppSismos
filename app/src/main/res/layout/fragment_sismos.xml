@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSismos"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_700"
+        android:text="Sismos Recientes"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4.0"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_gravity="start|center_vertical"
+            android:textStyle="bold"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/green"
+            android:layout_marginStart="5dp"/>
+
+        <LinearLayout
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="14dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20/09/2020   01:57:01"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="44 km al O de Tambo De Mora"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ica"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof : 48km / Imax : --"
+                android:textColor="@color/black"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/icono02"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|center_vertical"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/gray"
+        android:layout_marginVertical="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4.6"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_gravity="start|center_vertical"
+            android:textStyle="bold"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginStart="5dp"/>
+
+        <LinearLayout
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="14dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20/09/2020   00:29:39"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="44 km al SO de Espinar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cusco"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof : 158km / Imax : III Espinar"
+                android:textColor="@color/black"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/icono02"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|center_vertical"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/gray"
+        android:layout_marginVertical="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4.0"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_gravity="start|center_vertical"
+            android:textStyle="bold"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/green"
+            android:layout_marginStart="5dp"/>
+
+        <LinearLayout
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="14dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19/09/2020   22:07:53"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="62 km al O de Chimbote"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ancash"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof : 43km / Imax : III Chimbote"
+                android:textColor="@color/black"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/icono02"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|center_vertical"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/gray"
+        android:layout_marginVertical="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4.0"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:layout_gravity="start|center_vertical"
+            android:textStyle="bold"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/green"
+            android:layout_marginStart="5dp"/>
+
+        <LinearLayout
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18/09/2020   19:25:46"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40 km al O de Codo Del Pozuzo"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Huanuco"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prof : 15km / Imax : III Codo Del Pozuzo"
+                android:textColor="@color/black"
+                android:textSize="15.4sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/icono02"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end|center_vertical"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/gray"
+        android:layout_marginVertical="8dp"/>
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARGAR MÁS SISMOS"
+        android:background="@drawable/borde_button"
+        android:textColor="@color/blue2"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

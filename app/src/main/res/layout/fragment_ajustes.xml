@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentAjustes"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_700"
+        android:gravity="center"
+        android:text="Ajustes Notificaciones"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:checkedButton="@id/notify"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/nonotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No notificar"
+            android:layout_marginEnd="5dp"/>
+        <RadioButton
+            android:id="@+id/notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notificar"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONECTADO"
+        android:backgroundTint="@color/aqua"
+        android:layout_gravity="center"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:checkedButton="@id/sonido"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:id="@+id/vibrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrar al notificar"
+            android:layout_marginEnd="5dp"/>
+        <RadioButton
+            android:id="@+id/sonido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sonido al notificar"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:checkedButton="@id/alarma"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/alarma"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Alarma"/>
+        <RadioButton
+            android:id="@+id/notificacion"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Notificación"/>
+        <RadioButton
+            android:id="@+id/sonidoper"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Sonido personalizado"/>
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo02"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
